@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Avoid scrollbars */
+}
+
+canvas {
+    display: block; /* Removes the margin in the bottom */
+    background: #000; /* Optional: just to see it's working */
+    width: 100vw;
+    height: 100vh;
+    position: fixed; /* Makes it overlay any content */
+    top: 0;
+    left: 0;
+}
