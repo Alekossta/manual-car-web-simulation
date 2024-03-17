@@ -38,6 +38,7 @@ else
     
             const positionAttributeLocation = gl.getAttribLocation(program, "a_position");
             gl.vertexAttribPointer(positionAttributeLocation, 2, gl.FLOAT, false, 0, 0);
+            gl.enableVertexAttribArray(positionAttributeLocation);
             gl.drawArrays(gl.TRIANGLES, 0, 3);
         }
     }
